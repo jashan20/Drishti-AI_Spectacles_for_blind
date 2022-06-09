@@ -1,12 +1,10 @@
-## IONathon 1.0 (Prototype Phase)
+# HackForGood Hackathon 2022 (By Grab)
 
-# Theme: Social service / (focused on underprivileged only)
+## Theme: Open Format
 
-# Team Name: 
-## arnav0929
+## Team Name: IDEATORS
 
-# Project Name:
-## God's Eye
+# Project Name: Drishti: AI based Spectacles for Visually Impaired people
 
 ![photo_2022-03-26_03-15-10](https://user-images.githubusercontent.com/73690811/160207334-b364c377-c9cf-4186-84c6-8de8132e0629.jpg)
 
@@ -14,9 +12,11 @@
 AI-based spectacles that will tell blind people about their surroundings in real-time.
 
 # Features:
-1) It will assist visually impaired person in navigating from one place to another.
+1) It will narrate details about their surrounding in real-time.
 2) It will have OCR technology which will help the visually impaired person to read books and newspapers.
 3) The facial recognition module will help the visually impaired person to know the person sitting in front of him/her.
+4) The Road Sign/Symbol Recognition system will recognise the road signs and will give instructions accordingly
+5) It will have traffic light recognition system that will tell whe
 
 # Working:
 ![Methodology](https://user-images.githubusercontent.com/73690811/160275683-16184713-08c2-4a5c-b63b-46d872144097.png)
