@@ -4,8 +4,9 @@ import numpy as np
 import pathlib
 import cv2
 import sys
-
 import numpy
+
+from traffic_light import *
 #load the trained model to classify sign
 from keras.models import load_model
 #sys.path.append('Module-5')
@@ -76,6 +77,8 @@ def classify(file_path):
     pred=np.argmax(model.predict([image]), axis=1)[0]+1        
     print("#############################")
     print(pred)
+    if pred==27:
+        traffic_lig(file_path)
     sign = classes[pred]
     print(sign)
     return sign
