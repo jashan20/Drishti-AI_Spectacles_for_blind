@@ -9,7 +9,7 @@ def voice(myText):
 
     output = gTTS(text=myText, lang=language, slow=False)
     t=time.time()
-    nm="output"+str(t)+".mp3"
+    nm="Output/output"+str(t)+".mp3"
     output.save(nm)
     playsound(nm)
 
