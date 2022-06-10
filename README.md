@@ -30,6 +30,10 @@ It uses Tesseract library w, which takes opencv frame as input, recognizes text 
 We have trained our own deep learning model. It works on a multimodal neural network that uses feature vectors obtained using both RNN and CNN, so consequently, for training, two inputs have to be taken. One is the image we need to describe, a feed to the CNN, and the second is the words in the text sequence produced till now as a sequence as the input to the RNN. This module takes OpenCV frame as input and returns a description of the frame. <br>
 ### <b>D)</b> Module 4 (Facial Recognition Module) - 
 It works on face_recognition that uses dlib's deep learning algorithm implementation to recognize the person in the image. It takes OpenCV frame as input and returns name as string. <br>
+### <b>D)</b> Module 5 (Road Sign Recognition Module) - 
+We have developed our own sequential model consisting of 6 layers (4 convo2D and 2 Fully connected layers) trained on German Traffic Sign Kaggle Dataset ( https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign ). This Module takes opencv frame as input and returns the description of the road sign present in the frame (if any)<br>
+### <b>D)</b> Module 6 (Traffic light classification Module) -
+We have developed a 2 layer sequential model which consists of 1 Convo2D layer and 1 Fully connected layer, it is trained on Bosch Small Traffic Lights Dataset (https://hci.iwr.uni-heidelberg.de/content/bosch-small-traffic-lights-dataset). This Module takes opencv frame as input and returns the instruction according to the traffic light's color (if any)<br>
 <br>
 # Architecture:
 ![Arnav-01](https://user-images.githubusercontent.com/73690811/160275549-182cb6fa-22ff-49da-af27-9cf341b9bb09.jpg)
