@@ -36,7 +36,7 @@ We have developed our own sequential model consisting of 6 layers (4 convo2D and
 We have developed a 2 layer sequential model which consists of 1 Convo2D layer and 1 Fully connected layer, it is trained on Bosch Small Traffic Lights Dataset (https://hci.iwr.uni-heidelberg.de/content/bosch-small-traffic-lights-dataset). This Module takes opencv frame as input and returns the instruction according to the traffic light's color (if any)<br>
 <br>
 # Architecture:
-![Arnav-01](https://user-images.githubusercontent.com/73690811/160275549-182cb6fa-22ff-49da-af27-9cf341b9bb09.jpg)
+![architecture-drishti](https://user-images.githubusercontent.com/66416000/173025073-a5e52853-7bbf-4ed8-9ad0-84164c732fcd.png)
 
 
 # Instructions to run Dristi AI ?
@@ -44,7 +44,8 @@ Step 1: Download the repository as zipped file <br>
 Step 2: Extract zip<br>
 Step 3: Install dependencies from requirements.txt<br>
 Step 4: Run main.py <br>
-Step 5: Web Cam will start working. We have 5 Modes, Initially Live-environment captioning module will work (Mode 1, press 1 to start this mode), enter 2 to start Facial Recognition mode, enter 3 to start Road Sign Recognition Mode, enter 4 to start Traffic light Recognition Mode and enter 5 to start Optical Characters Recognition Mode (i.e enter 1, 2, 3, 4 or 5 to switch between modes)<br>
+Step 5: Web Cam will start working. We have 5 Modes, Initially Live-environment captioning module will work (Mode 1, press 1 to start this mode), enter 2 to start Facial Recognition mode, enter 3 to start Road Sign Recognition Mode, enter 4 to start Traffic light Recognition Mode and enter 5 to start Optical Characters !
+Recognition Mode (i.e enter 1, 2, 3, 4 or 5 to switch between modes)<br>
 Step 6: Enter ESC button to end <br>
 
 ### Website Link : http://godseye.epizy.com/
