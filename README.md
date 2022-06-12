@@ -18,6 +18,9 @@ AI-based spectacles that will tell blind people about their surroundings in real
 4) The Road Sign/Symbol Recognition system will recognise the road signs and will give instructions accordingly
 5) It has traffic light recognition system that will tell whether the traffic light is red , green or yellow
 
+# Tech Stack
+![stack](https://user-images.githubusercontent.com/66416000/173223495-d10d0348-70e8-49b9-8b58-1cb177d3bc6b.png)
+
 # Working:
 ![Methodology](https://user-images.githubusercontent.com/73690811/160275683-16184713-08c2-4a5c-b63b-46d872144097.png)
 
@@ -48,10 +51,6 @@ Step 5: Web Cam will start working. We have 5 Modes, Initially Live-environment 
 Recognition Mode (i.e enter 1, 2, 3, 4 or 5 to switch between modes)<br>
 Step 6: Enter ESC button to end <br>
 
-### Website Link : http://godseye.epizy.com/
-### Youtube videos: 
-<ul>
-  <li>https://youtu.be/tzNpARxmF44</li>
-  <li>https://youtu.be/hwHHWGiZTyw</li>
-</ul>
+### Website Link : http://dristi.rf.gd/
+### Youtube videos: https://youtu.be/ZR8VJvosMy0
     
